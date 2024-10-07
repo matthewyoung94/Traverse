@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimary">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        map:actionLayout="@layout/menu_layout"
+        map:showAsAction="never"
+        android:enabled="true"
+        android:textColor="?android:textColorPrimary"
+        android:background="?attr/colorPrimary"
+        />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        map:showAsAction="never"
+        map:actionLayout="@layout/menu_layout"
+        android:textColor="?android:textColorPrimary"
+        android:background="?attr/colorPrimary"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        map:showAsAction="never"
+        map:actionLayout="@layout/menu_layout"
+        android:textColor="?android:textColorPrimary"
+        android:background="?attr/colorPrimary"
+        />
+
+</menu>
+
+
+
+
+

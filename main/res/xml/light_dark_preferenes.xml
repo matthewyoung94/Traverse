@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<SwitchPreferenceCompat
+    app:key="light_dark_toggle"
+    app:title="Light or Dark Mode"
+    app:defaultValue="false"
+    app:useSimpleSummaryProvider="true"/>
+    </PreferenceScreen>
